@@ -1,0 +1,26 @@
+{
+  "name": "elearning-app",
+  "version": "1.0.0",
+  "description": "team two's app for addressing at-home learning needs during the pandemic ",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achamorr/VMwareCodeHouse-eLearning-App.git"
+  },
+  "keywords": [
+    "e-learning"
+  ],
+  "author": "Andrea Chamorro, Assata Quinichett, Helen Woldesenbet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achamorr/VMwareCodeHouse-eLearning-App/issues"
+  },
+  "homepage": "https://github.com/achamorr/VMwareCodeHouse-eLearning-App#readme"
+}
