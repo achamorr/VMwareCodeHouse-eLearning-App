@@ -39,10 +39,11 @@ app.post('/', function (req, res, next) {
         fs.writeFile(filePath, body, (err) => {
             if (err) throw err;
         });
+        
     });
 
     req.on('end', function (){
-        res.send("end\n")
+        res.send("\t> success!\n")
     });
 })
 

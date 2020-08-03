@@ -1,1 +1,1 @@
-curl -F file=@"test1.json" http://localhost:3000/
+curl -F file=@"mock.json" http://localhost:3000/
