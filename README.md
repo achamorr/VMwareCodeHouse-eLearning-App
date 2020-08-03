@@ -15,16 +15,19 @@ Download dependencies:
 
 Run: 
     `node app.js`
+    OR
+    `npm start`
 
 
 ## To Test
 
+### To test GET
 On command line:
 `curl http://localhost:3000`
 
 In browser go to http://localhost:3000/images/kitten.jfif
 
-To test POST
+### To test POST
 `curl -F file=@"test1.json" http://localhost:3000/`
 
 file must be absolute file path you wish to upload
