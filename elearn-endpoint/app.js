@@ -9,6 +9,7 @@ const port = 3000
 app.use(express.static('public'))
 //to test, call browser to http://localhost:3000/images/kitten.jfif
 
+// GET
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
