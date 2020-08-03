@@ -1,0 +1,29 @@
+{
+    "@type": "Organization",
+    "name": "Name",
+    "legalName": "Name, Inc.",
+    "url": "example.com",
+    "logo": "image.png",
+    "email": "test.email.com",
+    "contactPoint": [{
+        "@type": "ContactPoint",
+        "email": "support@email.com",
+        "contactType": "customer service"
+    }],
+    "Catagories": [
+        "Arts",
+        "Coding & Tech",
+        "English",
+        "Health & Wellness",
+        "Music",
+        "Social Studies",
+        "Life Skills",
+        "World Languages",
+    ],
+    "Age": [
+        "4-6"
+        "6-10",
+        "10-13",
+        "14-17",
+    ]
+}
