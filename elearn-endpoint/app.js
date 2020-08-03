@@ -11,6 +11,7 @@ app.use(express.static('public'))
 
 // GET
 app.get('/', (req, res) => {
+    console.log("Sending ..");
     res.send('Hello World!')
 })
 
@@ -47,42 +48,6 @@ app.post('/', function (req, res, next) {
     });
 })
 
-    /*
-       
-
-
-app.post('/', function (req, res) {
-    res.send('Got a POST request..')
-
-    if (!req.files || Object.keys(req.files).length === 0) {
-        return res.status(400).send('No files were uploaded.');
-    }
-
-    sampleFile = req.files.sampleFile;
-    filePath = __dirname + '/public/' + req.files.sampleFile.name;
-
-    // Use the mv() method to place the file somewhere on your server
-    sampleFile.mv(filePath, function(err) {
-        if (err)
-            return res.status(500).send(err);
-
-        res.send('done\n');
-    })
-    
-    // store to file
-    var body = '';
-    filePath = __dirname + '/public/' + sampleFile.name;
-    request.on('data', function(data) {
-        body += data;
-    });
-
-    request.on('end', function (){
-        fs.writeFile(filePath, body, (err) => {
-            if (err) throw err;
-        });
-        res.send('end\n')
-    });
-    */
 
 app.delete('/user', function (req, res) {
     res.send('Got a DELETE request at /user')

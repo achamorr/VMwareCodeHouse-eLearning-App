@@ -1,0 +1,1 @@
+sensible-browser http://localhost:3000/images/kitten.jfif
