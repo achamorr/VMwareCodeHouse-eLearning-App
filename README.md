@@ -14,7 +14,7 @@ Download dependencies:
     `npm install`
 
 Run: 
-    `node start`
+    `node app.js`
 
 
 ## To Test

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elearn-endpoint
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: elearn-endpoint
+  template:
+    metadata:
+      labels:
+        app: elearn-endpoint
+    spec:
+      containers:
+        - name: elearn-endpoint
+          image: #TODO
+          ports:
+            - containerPort: 3000
+          env:
+          imagePullPolicy: Always
